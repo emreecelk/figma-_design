@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav a {
+    font-family: "Montserrat", serif;
+    color: black;
+
+}
+
+.container {
+    background-image: url('/assets/img/hero_shop.png');
+    width: 1440px;
+    height: 1024px;
+}
+
+.shop {
+    padding-inline: 260px;
+    padding-top: 354px;
+    text-align: center;
+}
+
+.shop h3 {
+    font-family: "Montserrat", serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.shop p {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.shop a {
+    background-color: #094BAC;
+    color: #FFFFFF;
+    border-radius: 32px;
+    font-family: "Montserrat", serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    padding-block: 20px;
+    padding-inline: 20px;
+
+}

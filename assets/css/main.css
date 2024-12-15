@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav a {
+    font-family: "Montserrat", serif;
+    color: black;
+
+}
+
+.container {
+    padding-inline: 165px;
+}
+
+.blog_header h2 {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 824px;
+}
+
+.blog_avatar {
+    display: flex;
+    gap: 12px;
+
+}
+
+.blog_avatar img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+
+.blog_avatar p {
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.border {
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.blog_inclusive img {
+    width: 1110px;
+    border-radius: 1%;
+}
+
+.blog_inclusive p {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.blog_inclusive span {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    display: block;
+    margin-bottom: 104px;
+}
+
+.blog_know {
+    display: flex;
+    gap: 24px;
+    flex-direction: row-reverse;
+    width: 1110px;
+}
+
+
+
+.blog_know_info h3 {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.blog_know_info p {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.blog_roald {
+    width: 1110px;
+    height: 346px;
+    background-color: #ECF1F8;
+    text-align: center;
+}
+
+.blog_roald_info {
+    padding-block: 96px;
+    padding-inline: 125px;
+}
+
+.blog_roald_info h3 {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    margin-bottom: 16px;
+}
+
+.blog_roald_info p {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.blog_curly {
+    display: flex;
+    gap: 24px;
+    width: 1110px;
+    margin-top: 80px;
+}
+
+.blog_curly_info h3 {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.blog_curly_info p {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 128px;
+}
+
+.blog_footer h3 {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.blog_footer_img img {
+    border-radius: 12px;
+    position: absolute;
+}
+
+.blog_footer_img img:last-child {
+    padding-top: 275px;
+    padding-left: 530px;
+}

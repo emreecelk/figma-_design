@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav a {
+    font-family: "Montserrat", serif;
+    color: black;
+
+}
+
+.container {
+    width: 1440px;
+    height: 821.59px;
+    background-color: #05285B;
+    padding-bottom: 202px;
+}
+
+.hero_saas {
+    display: flex;
+    align-items: center;
+
+}
+
+.hero_saas_info {
+    padding-left: 165px;
+    padding-top: 248px;
+}
+
+.hero_saas_info h3 {
+    font-family: "Montserrat", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.699999988079071px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.hero_saas_info p {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero_saas_info a {
+    font-family: "Montserrat", serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    background-color: #DC3545;
+    color: #fff;
+    padding-block: 16px;
+    padding-inline: 72px;
+}
+
+.hero_saas_info_schedule {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.hero_saas_info_schedule p {
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.hero_saas_img {
+    margin-top: 200px;
+    margin-right: 100px;
+}
